@@ -59,7 +59,7 @@ A clean, responsive, and modern portfolio website built using **HTML**, **CSS**,
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ujjwal154/portfolio.git
+git clone https://github.com/ujjwal154/Portfoli-ujjwal/tree/main
 cd portfolio
 ```
 
