@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>UJJWAL DHIMAN</h1>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div id="hero-left">
+            <img id="hero-image" src="images/ujjwal pp.JPG" alt="profile img">
+        </div>
+        <div id="hero-right">
+            <h2>Hello, I'm <span>Ujjwal Dhiman</span></h2>
+            <p>Full Stack Developer | Flask | HTML | CSS</p>
+            <a href="#contact" class="btn">Get in Touch</a>
+            <a href="https://www.linkedin.com/in/ujjwal-dhiman/" target="_blank">
+                <button id="hero-btn" type="button">Linkdin</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about">
+        <div id="about-section">
+            <h2>About Me</h2>
+            <p>I'm a passionate full stack developer with experience in HTML, CSS, Flask, and more. I love creating
+                modern and responsive web applications.</p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-list">
+            <span> Languages: Python, C, HTML, CSS,
+                JavaScript </span>
+            <span>Frameworks: Flask, Django</span>
+            <span>Databases: MySQL, SQLite</span>
+            <span> Web Tools: Bootstrap, REST API </span>
+            <span> Other Tools: Git/GitHub, Excel, PowerPoint</span>
+            <span> Operating Systems: Windows 11, Ubuntu </span>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <div id="project-img">
+                <img src="images/gym-project.jpeg" alt="project-img">
+            </div>
+            <div id="project-content">
+                <h3>Gym Management System</h3>
+                <p>Flask-based role-based gym system with membership and trainer booking.</p>
+                <div id="project-btn">
+                    <a href="https://github.com/ujjwal154/gym-management-project/tree/main" target="_blank">
+                        <button type="button">View Code</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div id="project-img">
+                <img src="images/e-shopping store.jpeg" alt="project-img">
+            </div>
+            <div id="project-content">
+                <h3>Fashion E-Commerce Site</h3>
+                <p>Full e-commerce functionality with Stripe, Flask, MySQL backend.</p>
+                <div id="project-btn">
+                    <a href="https://github.com/ujjwal154/E-shopping-store/tree/main" target="_blank">
+                        <button type="button">View Code</button> </a>
+                </div>
+            </div>
+        </div>
+        <div class="project-card">
+            <div id="project-img">
+                <img src="images/Valley Tourism.jpeg" alt="project-img">
+            </div>
+            <div id="project-content">
+                <h3>Tourism Site</h3>
+                <p>Flask-based tourism site with travel packages and cottage bokking.</p>
+                <div id="project-btn">
+                    <a href="https://github.com/ujjwal154/Tourism-website" target="_blank">
+                        <button type="button">View Code</button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:your.email@example.com" method="POST" enctype="text/plain">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Ujjwal Dhiman. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
